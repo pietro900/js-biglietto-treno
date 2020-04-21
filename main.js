@@ -22,7 +22,7 @@ if (eta<18) {
 else if (eta>65) {
     //calcolo del prezzo del biglietto in base ai chilometri per anziani;
     var molt2 = molt * 40;
-    var divisione = molt / 100;
+    var divisione = molt2 / 100;
     var totale= molt - divisione;
     console.log( "tariffa ridotta: " + divisione );
     document.getElementById("demo").innerHTML = totale.toFixed(2) + " euro";
